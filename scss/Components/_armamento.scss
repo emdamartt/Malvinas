@@ -49,6 +49,7 @@ section {
         margin: 0 auto;
         width: 50%;
         height: 65vh;
+        object-fit: cover;
     }
     @media screen and (min-width: 590px) {
         .slide {
