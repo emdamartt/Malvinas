@@ -1,0 +1,16 @@
+/*Ajustes Generales*/
+@import "../base/variables";
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@600&family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Propiedades del Body*/
+body {
+    background-color: #000000;
+    background-image: linear-gradient(177deg, #000000 0%, #333030 46%, #e0d7d7 100%); 
+}
+body {
+    width: 100%;
+}

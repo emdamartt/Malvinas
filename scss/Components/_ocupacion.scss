@@ -1,0 +1,72 @@
+/*Aqui comienza la Seccion de Ocupacion*/
+.containerCont {
+    padding-top: 100px;
+}
+section {
+    .seccionOcu {
+        position: relative;
+        top: 1.25rem;
+    }
+}
+/*Videos de Seccion*/
+.videoAspecto {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 8px 8px ;
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    opacity: 1;
+}
+    .galtieri {
+        iframe {
+            width: 100% ;
+            height: 28rem;
+            border-radius: 5px;
+            border: 5px solid rgba(78, 77, 77, 0.658);
+            box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+            opacity: 2;
+    }
+}
+.galtieri, .col-lg-4 {
+    margin: 0 !important;
+    padding: 1.563rem;
+}
+.containerVideos {
+        .videoAspecto {
+            display: block;
+            margin: 0 auto;
+            border: none;
+            border-radius: 8px 8px ;
+            box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+            opacity: 1;
+        }
+        .videoAspectoUno {
+            -webkit-filter: sepia(100%);
+        }
+        .videoAspectoDos {
+            -webkit-filter: grayscale(50%); filter: grayscale(100%);
+        }
+    }
+#galeria {
+    img {
+        width: 100% ;
+        height: 28rem;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+        opacity: 2;
+        transition: all 300ms;
+        }
+    }
+#galeria, .col-lg-4 {
+        margin: 0 !important;
+        padding: 1.563rem;
+    }
+.containerLlegada {
+    img {
+        &:hover {
+            border: 5px solid rgba(78, 77, 77, 0.658);
+            filter: sepia(60%);
+        }
+    }
+}  
+/*Finaliza HTML Ocupacion*/

@@ -1,0 +1,33 @@
+@import "../base/variables";
+/*Comienzo del Formulario*/
+form {
+    background-color:$bgForm ;
+    h2 {
+        font-size: 20px;
+    }
+    div {
+        label {
+            font-size: 15px;
+        }
+    }
+    &::placeholder {
+        font-size: 10px;
+    }
+    div {
+        button {
+            &:focus {
+                outline: 0;
+            }
+        }
+    }
+    .btn {
+        background-color: #333030;
+        &:hover {
+            box-shadow: 0 0 40px rgba(247, 246, 246) inset;
+        }
+        &:active {
+            background-color: rgba(245, 0, 0, 0.377);
+        }
+    }
+}
+/*Termina Seccion Contactos*/

@@ -1,0 +1,413 @@
+/*Ajustes Generales*/
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@600&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Propiedades del Body*/
+body {
+  background-color: #000000;
+  background-image: linear-gradient(177deg, #000000 0%, #333030 46%, #e0d7d7 100%);
+}
+
+body {
+  width: 100%;
+}
+
+/*Comienza el Navbar*/
+header nav div ul li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*Termina el Navbar*/
+/*Animacion logo del Nav*/
+.animate__heartBeat {
+  animation: heartBeat infinite;
+  animation-duration: 4s;
+}
+
+/*Imagen de Portada*/
+.portada {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+  box-shadow: 5px 5px 10px 5px #8f9192;
+  opacity: 2;
+}
+
+.avion img {
+  width: 100%;
+  height: 500%;
+}
+
+/*Galeria Index*/
+#galeria img {
+  width: 100%;
+  height: 28rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+  opacity: 2;
+  transition: all 300ms;
+}
+
+#galeria, .col-lg-4 {
+  margin: 0 !important;
+  padding: 1.563rem;
+}
+
+#galeria img:hover {
+  border: 5px solid rgba(78, 77, 77, 0.658);
+  -webkit-transform: scale(1.06);
+  transform: scale(1.05);
+}
+
+/*Fin de Galeria*/
+/*Comienza Mapa Fin de pagina*/
+.mapa {
+  margin: 1.875rem auto;
+  width: 50%;
+  height: 40%;
+  display: block;
+  border-radius: 1.25rem;
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+  opacity: 2;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+/*Finaliza el Mapa y el Index*/
+/*Titulos y Subtitulos Grales*/
+.tituloAr, .titleHist, .comienzo {
+  margin: 20px auto;
+  color: rgba(229, 197, 155, 0.596);
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 200%;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.tituloMenor {
+  margin: 1.25rem auto;
+  padding: 0.625rem;
+  padding-bottom: 0.625rem;
+  color: rgba(229, 197, 155, 0.596);
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-style: italic;
+  font-size: 120%;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.frase {
+  padding-bottom: 0.625rem 0.625rem;
+  width: 100%;
+  color: black;
+  background-color: rgba(235, 231, 231, 0.404);
+  margin: 0 auto;
+  padding: 1.07rem;
+  text-align: center;
+  text-shadow: 1px 1px #4b4949;
+}
+
+.fraseDos {
+  background-color: rgba(235, 231, 231, 0.404);
+  margin: 0 auto;
+  padding: 1.07rem;
+  text-align: right;
+  text-shadow: 1px 1px rgba(75, 73, 73, 0.521);
+  box-shadow: 5px 5px 5px #414141;
+}
+
+/*Parrafos Generales*/
+p, .vincular {
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+/*Finaliza Parrafos Generales*/
+/*Aqui comienza la Seccion de Ocupacion*/
+.containerCont {
+  padding-top: 100px;
+}
+
+section .seccionOcu {
+  position: relative;
+  top: 1.25rem;
+}
+
+/*Videos de Seccion*/
+.videoAspecto {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px 8px;
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+  opacity: 1;
+}
+
+.galtieri iframe {
+  width: 100%;
+  height: 28rem;
+  border-radius: 5px;
+  border: 5px solid rgba(78, 77, 77, 0.658);
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+  opacity: 2;
+}
+
+.galtieri, .col-lg-4 {
+  margin: 0 !important;
+  padding: 1.563rem;
+}
+
+.containerVideos .videoAspecto {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px 8px;
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+  opacity: 1;
+}
+.containerVideos .videoAspectoUno {
+  -webkit-filter: sepia(100%);
+}
+.containerVideos .videoAspectoDos {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(100%);
+}
+
+#galeria img {
+  width: 100%;
+  height: 28rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+  opacity: 2;
+  transition: all 300ms;
+}
+
+#galeria, .col-lg-4 {
+  margin: 0 !important;
+  padding: 1.563rem;
+}
+
+.containerLlegada img:hover {
+  border: 5px solid rgba(78, 77, 77, 0.658);
+  filter: sepia(60%);
+}
+
+/*Finaliza HTML Ocupacion*/
+/*Empieza la seccion de Armamento*/
+section div img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+  opacity: 2;
+  transition: all 300ms;
+}
+section div .card {
+  background-color: #e0e0e0;
+}
+section .cardBody {
+  height: 280px;
+  box-shadow: 5px 5px 10px 5px #4b4c4d;
+}
+section .cardTitle {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+section .cardText {
+  font-size: 20px;
+}
+section .cardTitle, section .cardText {
+  padding-top: 20px;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  text-align: center;
+}
+section img:hover {
+  border: 5px solid rgba(78, 77, 77, 0.658);
+  -webkit-transform: scale(1.06);
+  transform: scale(1.08);
+}
+
+/*Seccion Carrousel*/
+.slide {
+  margin: 20px auto;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.39);
+  transition: all 1.05s;
+}
+.slide img {
+  margin: 0 auto;
+  width: 50%;
+  height: 65vh;
+}
+@media screen and (min-width: 590px) {
+  .slide .slide {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .slide .slide {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*Termina el Carrousel*/
+/*Seccion Crucero Gral Belgrano*/
+.belgrano {
+  width: 100%;
+  padding: 20px 0 50px 0;
+}
+.belgrano p {
+  color: black;
+}
+.belgrano img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+section .espacio {
+  padding-bottom: 30px;
+  letter-spacing: 10px;
+  word-spacing: 3px;
+}
+
+/*Finaliza Seccion de Armamento*/
+/*Comienza El Html de Historias*/
+.containerAll, .ContainerVete {
+  width: 100%;
+  max-width: 2000px;
+  margin: left;
+  padding: 20px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.containerAll img, .ContainerVete, video {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px 2px 2px 4px rgba(3, 3, 3, 0.267);
+  border-radius: 5px;
+}
+
+.mujeres p {
+  color: #000;
+  font-size: 15px;
+}
+.mujeres .mujeresMalv {
+  display: block;
+  width: 100%;
+  color: black;
+  background-color: rgba(235, 231, 231, 0.404);
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/*Comienzo del Formulario*/
+form {
+  background-color: rgba(206, 11, 11, 0.178);
+}
+form h2 {
+  font-size: 20px;
+}
+form div label {
+  font-size: 15px;
+}
+form::placeholder {
+  font-size: 10px;
+}
+form div button:focus {
+  outline: 0;
+}
+form .btn {
+  background-color: #333030;
+}
+form .btn:hover {
+  box-shadow: 0 0 40px #f7f6f6 inset;
+}
+form .btn:active {
+  background-color: rgba(245, 0, 0, 0.377);
+}
+
+/*Termina Seccion Contactos*/
+/*Aqui comienza La barra Lateral de Redes Sociales*/
+.socialBar {
+  font-size: 16px;
+  position: fixed;
+  right: 0;
+  top: 35%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+.socialBar .icon {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  display: flex;
+  transition: all 0.9s;
+}
+
+div .icon-facebook2,
+div .icon-instagram,
+div .icon-linkedin {
+  background: #000;
+}
+div .icon:first-child {
+  border-radius: 1rem 0 0 0;
+}
+div .icon:last-child {
+  border-radius: 0 0 0 1rem;
+}
+div .icon:hover {
+  background: rgba(78, 77, 77, 0.658);
+  padding-right: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+
+/*Animacion SocialBar*/
+.socialBar {
+  animation: heartBeat infinite;
+  animation-duration: 20s;
+}
+
+/*Termina La seccion SocialBar*/
+/*Aqui Comienza El footer*/
+footer .copy {
+  display: block;
+}
+footer .copy p {
+  color: #fff;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+}
+footer div p a {
+  color: rgba(255, 255, 255, 0.144);
+}
+footer div p a:hover {
+  color: rgba(255, 255, 255, 0.267);
+}
+
+/*# sourceMappingURL=style.css.map */

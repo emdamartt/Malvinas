@@ -1,0 +1,90 @@
+@import "../base/variables";
+/*Empieza la seccion de Armamento*/
+section {
+    div {
+        img {
+            width: 100% ;
+            height: 20rem;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+            opacity: 2;
+            transition: all 300ms;
+    }
+        .card {
+            background-color: rgb(224, 224, 224);
+        }
+    }
+        .cardBody {
+            height: 280px;
+            box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    }
+        .cardTitle {
+            font-size: 30px;
+            text-transform: uppercase;
+            text-decoration: underline;
+    }
+        .cardText {
+            font-size: 20px;
+    }
+        .cardTitle, .cardText {
+            padding-top: 20px;
+            font-family: $fontF;
+            text-align: center;
+    }
+    img {
+        &:hover {
+            border: 5px solid rgba(78, 77, 77, 0.658);
+            -webkit-transform:scale(1.06);
+            transform:scale(1.08);
+        }
+    }
+}
+/*Seccion Carrousel*/
+
+.slide {
+    margin: 20px auto;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.39);
+    transition: all 1.05s;
+    img {
+        margin: 0 auto;
+        width: 50%;
+        height: 65vh;
+    }
+    @media screen and (min-width: 590px) {
+        .slide {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media screen and (min-width: 1024px){
+        .slide {
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+}
+/*Termina el Carrousel*/
+
+/*Seccion Crucero Gral Belgrano*/
+.belgrano {
+    width: 100%;
+    padding: 20px 0 50px 0;
+        p {
+            color: rgb(0, 0, 0);
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 70%;
+            height: 300px;
+            border-radius: 10px;
+    }
+}
+section {
+    .espacio {
+        padding-bottom: 30px;
+        letter-spacing: 10px;
+        word-spacing: 3px;
+    }
+}
+/*Finaliza Seccion de Armamento*/

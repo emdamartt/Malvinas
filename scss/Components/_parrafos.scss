@@ -1,0 +1,12 @@
+@import "../base/variables";
+/*Parrafos Generales*/
+p, .vincular {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-family: $fontF;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 20px 20px;
+    text-align: left;
+}
+/*Finaliza Parrafos Generales*/

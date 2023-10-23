@@ -1,0 +1,21 @@
+@import "../base/variables";
+/*Aqui Comienza El footer*/
+footer {
+    .copy {
+        display: block;
+        p {
+            color: #fff;
+            font-family: $fontF;
+        }
+    }
+    div {
+        p {
+            a {
+                color: rgba(255, 255, 255, 0.144);
+                    &:hover {
+                        color: rgba(255, 255, 255, 0.267);
+                    }
+            }
+        }
+    }
+}

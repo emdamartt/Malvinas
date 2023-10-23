@@ -1,0 +1,42 @@
+@import "../base/variables";
+
+/*Titulos y Subtitulos Grales*/
+.tituloAr, .titleHist, .comienzo {
+    margin: 20px auto;
+    color: $colorT;
+    font-family: $fontF;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 1px 1px 3px #000;
+}
+.tituloMenor {
+    margin: 1.25rem auto;
+    padding: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: $colorT;
+    font-family: $fontF;
+    font-style: italic;
+    font-size: 120%;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px #000;
+}
+.frase {
+    padding-bottom: 0.625rem 0.625rem;
+    width: 100%;    
+    color: rgb(0, 0, 0);
+    background-color: rgba(235, 231, 231, 0.404);
+    margin: 0 auto;
+    padding: 1.07rem ;
+    text-align: center;
+    text-shadow: 1px 1px rgb(75, 73, 73);
+}
+.fraseDos {
+    background-color: rgba(235, 231, 231, 0.404);
+    margin: 0 auto;
+    padding: 1.07rem ;
+    text-align: right;
+    text-shadow: 1px 1px rgba(75, 73, 73, 0.521);
+    box-shadow: 5px 5px 5px rgb(65, 65, 65);
+}

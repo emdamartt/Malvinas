@@ -1,0 +1,19 @@
+{
+  "name": "entregaa-4",
+  "version": "1.0.0",
+  "description": "<h1 align = \"center\"> Hola 👋, soy Emanuel Martinez </h1>\r <h3 align = \"center\"> Un futuro desarrollador de pila completa de Argentina </h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emdamartt/Proyectos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emdamartt/Proyectos/issues"
+  },
+  "homepage": "https://github.com/emdamartt/Proyectos#readme"
+}

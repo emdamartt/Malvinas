@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@600&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.colorIndex,
+.bodyOcu,
+.bodyDest,
+.bodyRel,
+.bodycontact
+        {
+    background-color: #000000;
+    background-image: linear-gradient(177deg, #000000 0%, #333030 46%, #e0d7d7 100%);
+}
+body {
+    width: 100%;
+}
+                                                /* Seccion Navbar y foto de portada */
+/* Comienzo INDEX */
+nav li {
+    padding-left:30px;
+    padding-right:30px;
+    
+}
+.portada {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    box-shadow: 5px 5px 10px 5px rgb(143, 145, 146) ;
+    opacity: 2;
+}
+.avion img {
+    width: 100%;
+    height: 500%;
+}
+                                                /*Galeria index*/
+#galeria img{
+    width: 100% ;
+    height: 28rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    opacity: 2;
+    transition: all 300ms;
+}
+#galeria, .col-lg-4 {
+    margin: 0 !important;
+    padding: 1.563rem;
+}
+#galeria img:hover {
+    border: 5px solid rgba(78, 77, 77, 0.658);
+    -webkit-transform:scale(1.06);
+    transform:scale(1.05);
+}
+                                                /*Mapa index*/
+.mapa {
+    margin: 1.875rem auto;
+    width: 50% ;
+    height: 40%;
+    display: block;
+    border-radius: 1.25rem;
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    opacity: 2;
+    transition-property: all ;
+    transition-duration: 3s;
+}
+    /**-- Finaliza Index--**/
+                                                /* Titulos Generales*/
+.animated {
+    margin: 20px auto;
+    color: rgba(229, 197, 155, 0.596);
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 100%;
+    text-shadow: 1px 1px 3px #000;
+}
+.animate__heartBeat {
+    animation: heartBeat infinite;
+    animation-duration: 4s;
+}
+.tituloAr, .titleHist, .comienzo {
+    margin: 20px auto;
+    color: rgba(229, 197, 155, 0.596);
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 1px 1px 3px #000;
+}
+                                                /*--Sub-titulos Generales--*/
+.tituloMenor {
+    margin: 1.25rem auto;
+    padding: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: rgba(229, 197, 155, 0.596);
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-style: italic;
+    font-size: 120%;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px #000;
+}
+.frase {
+    padding-bottom: 0.625rem 0.625rem;
+    width: 100%;    
+    color: rgb(0, 0, 0);
+    background-color: rgba(235, 231, 231, 0.404);
+    margin: 0 auto;
+    padding: 1.07rem ;
+    text-align: center;
+    text-shadow: 1px 1px rgb(75, 73, 73);
+}
+
+.fraseDos {
+    background-color: rgba(235, 231, 231, 0.404);
+    margin: 0 auto;
+    padding: 1.07rem ;
+    text-align: right;
+    text-shadow: 1px 1px rgba(75, 73, 73, 0.521);
+    box-shadow: 5px 5px 5px rgb(65, 65, 65);
+    opacity: 2;
+}
+                                                /* Las propiedades de P aplican para todos los parrafos de los html*/
+p, .vincular {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 20px 20px;
+    text-align: left;
+}
+                                                /*-- Aqui comienza el html de OCUPACION*/
+.containerCont {
+    padding-top: 100px;
+}
+.seccionOcu {
+    position: relative;
+    top: 1.25rem;
+}
+                                                /**--Videos de Html Ocupacion --**/
+.videoAspecto {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 8px 8px ;
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    opacity: 1;
+}
+.galtieri iframe {
+    width: 100% ;
+    height: 28rem;
+    border-radius: 5px;
+    border: 5px solid rgba(78, 77, 77, 0.658);
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    opacity: 2;
+}
+.galtieri, .col-lg-4 {
+    margin: 0 !important;
+    padding: 1.563rem;
+} 
+.videoAspectoUno {
+    -webkit-filter: sepia(100%);
+
+}
+.videoAspectoDos {
+    
+-webkit-filter: grayscale(50%); filter: grayscale(100%);}
+
+.containerLlegada img:hover {
+    border: 5px solid rgba(78, 77, 77, 0.658);
+    filter: sepia(60%);
+}
+/*-- Finaliza Ocupacion--*/
+                                                /*-- Comienzo Armamento --*/
+/*-- Grid Seccion Aviones --*/
+.armada {
+    text-align: left;
+    padding: 20px 0 20px 50px;
+    margin: 0 auto;
+}
+.cardBody {
+    height: 280px;
+}
+.card {
+    background-color: rgb(224, 224, 224);
+}
+.card img {
+    width: 100% ;
+    height: 20rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    opacity: 2;
+    transition: all 300ms;
+}
+.card img:hover {
+    border: 5px solid rgba(78, 77, 77, 0.658);
+    -webkit-transform:scale(1.06);
+    transform:scale(1.05);
+}
+.cardBody {
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+}
+.cardTitle {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.cardText {
+    font-size: 20px;
+}
+.cardTitle, .cardText {
+    padding-top: 20px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    text-align: center;
+}
+/*-- Comienza el carroussel--*/
+.slide {
+    margin: 20px auto;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.39);
+    transition: all 1.05s;
+}
+.slide img {
+    margin: 0 auto;
+    width: 50%;
+    height: 65vh;
+}
+.slide {
+    -webkit-filter: grayscale(80%); filter: grayscale(100%);
+}
+@media screen and (min-width: 590px) {
+    .slide {
+            grid-template-columns: repeat(2, 1fr);
+        }
+}
+@media screen and (min-width: 1024px){
+    .slide {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+.belgrano {
+    width: 100%;
+    padding: 20px 0 50px 0;
+}
+.belgrano p {
+    color: rgb(0, 0, 0);
+}
+.belgrano img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 60%;
+    border-radius: 10px;
+}
+.hundimiento {
+    box-shadow: 5px 5px 10px 5px rgb(75, 76, 77) ;
+    opacity: 4;
+}
+.espacio {
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+    word-spacing: 3px;
+}
+.vincular {
+    margin: 0 auto;
+}
+.vincular p {
+    color: rgba(245, 243, 243, 0.664);
+    text-decoration: none;
+}
+.vincular a:hover {
+    color: black;
+}
+.vincular a:active {
+    background-color: aliceblue;
+}
+                                            /*-- Aqui termina el html de Armamento*/
+/*Comienza El Html de Historias*/
+.containerAll, .containerVete {
+    width: 100%;
+    max-width: 2000px;
+    margin: left;
+    padding:20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.containerAll img, .containerVete, video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 2px 4px rgba(3, 3, 3, 0.267);
+    border-radius: 5px;
+}
+.mujeres, .containerVete  p {
+    color:#000;
+    font-size: 15px;
+}
+.mujerMalv {
+    display: block;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(235, 231, 231, 0.404);
+    margin: 0 auto;
+    padding: 50px ;
+}
+.containerAll {
+    padding-bottom: 1px;
+    width: 100%;
+}
+.containerAll, .titleHist {
+    margin-bottom: 60px;
+    display: block;
+    justify-content: end;
+}
+.containerVete video {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.459);
+}
+/* Termina El html de Historias.*/
+                            /*Aqui comienza la Seccion de Contacto*/
+/* Formulario*/
+form {
+    background-color: rgba(206, 11, 11, 0.178);}
+form h2 {
+    font-size: 20px;
+}
+form div label {
+    font-size: 15px;
+}
+form ::placeholder {
+    font-size: 10px;
+}
+button :focus {
+    outline: 0;
+}
+.btn {
+    background-color: #333030;
+
+}
+.btn:hover {
+    box-shadow: 0 0 40px rgba(206, 11, 11, 0.178) inset;
+}
+.btn:active {
+    background-color: rgba(245, 0, 0, 0.377);
+}
+/*Termina Html De contactos*/
+                                                /*Comienza la barra vertical de redes sociales.*/
+.socialBar {
+    font-size: 16px;
+    position:fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100 ;
+}
+.socialBar {
+    animation: heartBeat infinite;
+    animation-duration: 20s;
+}
+.icon  {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    transition: all .9s;
+}
+.icon-facebook2 {
+    background:#000;
+}
+.icon-instagram {
+    background: #000;
+}
+.icon-linkedin {
+    background: #000;
+}
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover {
+    background: rgba(78, 77, 77, 0.658);
+    padding-right: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+/*Termina la barra de redes sociales*/
+                                                /*Comienza el footer*/
+footer, copy {
+    display: block;
+} 
+footer div p a {
+    color: rgba(255, 255, 255, 0.144);
+}
+footer p a:hover {
+    color: rgba(255, 255, 255, 0.267);
+}
+.copy p {
+    color: #fff;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+/*-- Termina el Footer--*/
